@@ -7,8 +7,6 @@ import {
 } from "@/data/products";
 import { CoffeeCup } from "@/components/svgs";
 import { LazyProductRow } from "@/components/products";
-import { RequestCallDialog } from "@/components/RequestCallDialog";
-import Link from "next/link";
 
 export const revalidate = 3600;
 
@@ -31,19 +29,7 @@ export default function Home() {
                   We are dedicated to providing exceptional service and support
                   to our B2B clients. Whether you're a small cafe or a large
                   hotel chain, we operate with new tech and ethical practices.
-                </p>
-                <div className="pt-5 flex flex-row gap-4">
-                  <RequestCallDialog />
-                  <Link
-                    href="https://cal.com/arjunaditya/30min?user=arjunaditya"
-                    target="_blank"
-                  >
-                    <Button variant="red" size="sm">
-                      Schedule a Zoom Meeting
-                    </Button>
-                  </Link>
-                </div>
-              </div>
+                </p>              </div>
               {/* Featured Products Section */}
               <div className="py-20 bg-white">
                 <div className="max-w-6xl mx-auto px-4 lg:px-6">

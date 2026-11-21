@@ -3,7 +3,6 @@
 import Image from "next/image";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardHeader,
@@ -153,15 +152,6 @@ export default function AboutPage() {
                 <IoIosMail size={20} />
               </Link>
             </div>
-            <a
-              className="mt-4 mb-2"
-              href="https://cal.com/arjunaditya/30min?user=arjunaditya"
-              target="_blank"
-            >
-              <Button variant="lightgraybg" size="minor">
-                Schedule Call
-              </Button>
-            </a>
           </div>
           {/* <div>
             <Image
