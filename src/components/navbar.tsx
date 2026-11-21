@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import Link from "@/lib/next-link-compat";
 import { Button } from "@/components/ui/button";
-import { CurrencySelector } from "@/components/currency-selector";
 
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -53,7 +52,6 @@ export function Navbar() {
 
           {/* RIGHT */}
           <div className="flex shrink-0 items-center gap-2">
-            <CurrencySelector />
             <a
               id="store-link"
               href="/contact"

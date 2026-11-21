@@ -13,7 +13,6 @@ import type { Route } from "./+types/root";
 import "@/styles/globals.css";
 import { cn } from "@/lib/utils";
 import RootProviders from "@/components/providers";
-import { WhatsappWidget } from "@/components/whatsapp-widget";
 import { Floating } from "@/components/floating";
 import { OrganizationSchema } from "@/components/seo";
 import { Navbar } from "@/components/navbar";
@@ -104,7 +103,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
         />
         <OrganizationSchema />
         <RootProviders>{children}</RootProviders>
-        <WhatsappWidget />
         <Floating />
         <ScrollRestoration />
         <Scripts />

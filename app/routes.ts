@@ -20,7 +20,6 @@ export default [
     route("checkout", "routes/api/checkout.ts"),
     route("contact", "routes/api/contact.ts"),
     route("create-payment", "routes/api/create-payment.ts"),
-    route("geo", "routes/api/geo.ts"),
     route("keep-alive", "routes/api/keep-alive.ts"),
     route("new-product-request", "routes/api/new-product-request.ts"),
     route("quote-request", "routes/api/quote-request.ts"),

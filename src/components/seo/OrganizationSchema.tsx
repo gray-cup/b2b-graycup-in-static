@@ -21,7 +21,7 @@ export function OrganizationSchema() {
     ],
     contactPoint: {
       "@type": "ContactPoint",
-      email: "office@graycup.org",
+      email: "arjun@graycup.in",
       contactType: "sales",
       areaServed: "Worldwide",
       availableLanguage: ["English", "Hindi"],

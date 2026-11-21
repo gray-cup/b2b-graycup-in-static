@@ -59,8 +59,7 @@ export default async function LocationCityPage({ params }: Props) {
     description: `Wholesale bulk tea and coffee supplier serving ${data.city}`,
     url: `https://b2b.graycup.in/locations/${city}`,
     areaServed: { "@type": "City", name: data.city },
-    telephone: "+918527914317",
-    email: "graycup.enterprises@gmail.com",
+    email: "arjun@graycup.in",
   };
 
   return (
@@ -181,13 +180,6 @@ export default async function LocationCityPage({ params }: Props) {
                   className="block w-full text-center bg-black text-white font-medium py-2.5 rounded-lg hover:bg-neutral-800 transition-colors text-sm"
                 >
                   Request a Quote
-                </Link>
-                <Link
-                  href="https://wa.me/918527914317"
-                  target="_blank"
-                  className="block w-full text-center border border-neutral-300 text-neutral-700 font-medium py-2.5 rounded-lg hover:bg-neutral-50 transition-colors text-sm"
-                >
-                  WhatsApp
                 </Link>
               </div>
             </div>

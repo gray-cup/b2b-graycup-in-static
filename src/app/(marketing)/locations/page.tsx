@@ -98,13 +98,6 @@ export default function LocationsPage() {
             >
               Get in Touch
             </Link>
-            <Link
-              href="https://wa.me/918527914317"
-              target="_blank"
-              className="inline-flex items-center gap-2 border border-neutral-300 text-neutral-700 font-medium px-5 py-2.5 rounded-lg hover:bg-neutral-100 transition-colors text-sm"
-            >
-              WhatsApp Us
-            </Link>
           </div>
         </div>
       </div>

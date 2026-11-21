@@ -153,10 +153,10 @@ function SuccessContent() {
             If you completed the payment, please wait a moment and refresh this
             page. If you have any questions, contact us at{" "}
             <a
-              href="mailto:hello@graycup.in"
+              href="mailto:arjun@graycup.in"
               className="underline text-neutral-700"
             >
-              hello@graycup.in
+              arjun@graycup.in
             </a>
             .
           </p>

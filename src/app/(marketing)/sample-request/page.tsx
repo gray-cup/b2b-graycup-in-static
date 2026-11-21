@@ -148,7 +148,7 @@ export default function SampleRequestPage() {
               <Input
                 id="phone"
                 type="tel"
-                placeholder="+91 8527914317"
+                placeholder="+91 98XXX XXXXX"
                 required
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}

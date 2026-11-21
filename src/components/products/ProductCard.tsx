@@ -4,8 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import type { Product } from "@/data/products";
-import { useCurrency } from "@/components/currency-provider";
-import { convertPrice, CURRENCIES } from "@/lib/currency";
 
 type ProductCardProps = {
   product: Product;
@@ -13,9 +11,6 @@ type ProductCardProps = {
 };
 
 export function ProductCard({ product, showPrice = true }: ProductCardProps) {
-  const { currency } = useCurrency();
-  const config = CURRENCIES[currency];
-  const minPriceConverted = convertPrice(product.priceRange.min, currency);
 
   return (
     <Link href={`/products/${product.slug}`}>
@@ -43,10 +38,7 @@ export function ProductCard({ product, showPrice = true }: ProductCardProps) {
           {showPrice && (
             <div className="flex items-center justify-between text-xs text-muted-foreground mt-1">
               <span>
-                From {config.symbol}
-                {currency === "INR"
-                  ? minPriceConverted
-                  : minPriceConverted.toFixed(2)}
+                From ₹{product.priceRange.min}
                 /{product.minimumOrder.unit}
               </span>
               <span>

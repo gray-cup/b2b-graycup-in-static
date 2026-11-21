@@ -38,31 +38,6 @@ export default function ContactPage() {
             </Button>
           </div>
 
-          {/* Phone */}
-          <div className="p-4 border rounded-lg">
-            <h2 className="font-semibold text-black mb-1">Phone</h2>
-            <p className="text-sm text-muted-foreground mb-3">
-              Call us directly.
-            </p>
-            <p className="text-sm text-black underline underline-offset-4 hover:text-neutral-600">
-              +91 8527914317
-            </p>
-
-          </div>
-
-          {/* Sales & Purchases */}
-          <div className="p-4 border rounded-lg">
-            <h2 className="font-semibold text-black mb-1">Sales & Purchases</h2>
-            <p className="text-sm text-muted-foreground mb-3">
-              Response within 12 hours.
-            </p>
-            <a
-              href="mailto:office@graycup.org"
-              className="text-sm text-black underline underline-offset-4 hover:text-neutral-600"
-            >
-              office@graycup.org
-            </a>
-          </div>
 
           {/* General Enquiries */}
           <div className="p-4 border rounded-lg">

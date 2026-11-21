@@ -148,7 +148,7 @@ export default function AboutPage() {
               <Link
                 className="opacity-75 hover:opacity-100 transition-opacity"
                 target="_blank"
-                href="mailto:arjunaditya@icloud.com"
+                href="mailto:arjun@graycup.in"
               >
                 <IoIosMail size={20} />
               </Link>

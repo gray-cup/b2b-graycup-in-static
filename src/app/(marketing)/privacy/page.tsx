@@ -123,10 +123,10 @@ export default function PrivacyPolicy() {
           If you have any questions about this Privacy Policy, please contact us
           through our Discord server or via{" "}
           <a
-            href="mailto:meow@nermalcat69.com"
+            href="mailto:arjun@graycup.in"
             className="text-blue-700 underline"
           >
-            meow@nermalcat69.com
+            arjun@graycup.in
           </a>
           .
         </p>
