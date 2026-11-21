@@ -16,7 +16,6 @@ export default [
   // ]),
 
   ...prefix("api", [
-    route("call-request", "routes/api/call-request.ts"),
     route("checkout", "routes/api/checkout.ts"),
     route("contact", "routes/api/contact.ts"),
     route("create-payment", "routes/api/create-payment.ts"),
