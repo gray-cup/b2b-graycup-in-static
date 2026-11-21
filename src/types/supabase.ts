@@ -216,36 +216,6 @@ export type Database = {
         };
         Relationships: [];
       };
-      call_requests: {
-        Row: {
-          id: string;
-          name: string;
-          phone: string;
-          company_name: string;
-          agenda: string;
-          created_at: string;
-          resolved: boolean;
-        };
-        Insert: {
-          id?: string;
-          name: string;
-          phone: string;
-          company_name: string;
-          agenda: string;
-          created_at?: string;
-          resolved?: boolean;
-        };
-        Update: {
-          id?: string;
-          name?: string;
-          phone?: string;
-          company_name?: string;
-          agenda?: string;
-          created_at?: string;
-          resolved?: boolean;
-        };
-        Relationships: [];
-      };
     };
     Views: {
       [_ in never]: never;

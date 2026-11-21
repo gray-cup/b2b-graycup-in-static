@@ -48,7 +48,7 @@ export const b2b_graycup_in_orders = sqliteTable("b2b_graycup_in_orders", {
 export const b2b_graycup_in_leads = sqliteTable("b2b_graycup_in_leads", {
   id: integer("id").primaryKey({ autoIncrement: true }),
   created_at: text("created_at").$defaultFn(() => new Date().toISOString()).notNull(),
-  kind: text("kind").notNull(), // contact | call-request | quote-request | new-product-request | sample-request | feedback
+  kind: text("kind").notNull(), // contact | quote-request | new-product-request | sample-request | feedback
   name: text("name"),
   email: text("email"),
   phone: text("phone"),

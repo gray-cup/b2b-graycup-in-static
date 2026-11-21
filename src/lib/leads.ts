@@ -4,7 +4,6 @@ import { getClientIP } from "./turnstile";
 
 export type LeadKind =
   | "contact"
-  | "call-request"
   | "quote-request"
   | "new-product-request"
   | "sample-request"
